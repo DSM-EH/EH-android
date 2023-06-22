@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/boardFragment"
+        android:icon="@drawable/ic_board"
+        android:title="게시판" />
+
+    <item
+        android:id="@+id/myPageFragment"
+        android:icon="@drawable/ic_mypage"
+        android:title="마이페이지" />
+</menu>

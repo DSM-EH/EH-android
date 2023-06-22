@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextInputLayoutStyle" parent="Widget.Design.TextInputLayout">
+        //클릭전 밑줄 색상
+        <item name="colorControlNormal">@color/gray500</item>
+        //클릭 후 밑줄 색상
+        <item name="boxStrokeColor">@color/gray900</item>
+        //커서 색상
+        <item name="android:textCursorDrawable">@color/gray900</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10d" parent="">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50p" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+</resources>
